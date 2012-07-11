@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7EC864E158A73B4008ED6E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC864D158A73B4008ED6E4 /* Cocoa.framework */; };
+		C7EC8658158A73B4008ED6E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7EC8656158A73B4008ED6E4 /* InfoPlist.strings */; };
+		C7EC865A158A73B4008ED6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EC8659158A73B4008ED6E4 /* main.m */; };
+		C7EC865E158A73B4008ED6E4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C7EC865C158A73B4008ED6E4 /* Credits.rtf */; };
+		C7EC8661158A73B4008ED6E4 /* ISSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EC8660158A73B4008ED6E4 /* ISSAppDelegate.m */; };
+		C7EC8664158A73B4008ED6E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EC8662158A73B4008ED6E4 /* MainMenu.xib */; };
+		C7EC866B158A73BF008ED6E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC866A158A73BF008ED6E4 /* QuartzCore.framework */; };
+		C7EC866D158A73C4008ED6E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC866C158A73C4008ED6E4 /* AVFoundation.framework */; };
+		C7EC8670158A73E8008ED6E4 /* NinjaAVFoundationExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EC866F158A73E8008ED6E4 /* NinjaAVFoundationExporter.m */; };
+		C7EC8672158A73FC008ED6E4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC8671158A73FC008ED6E4 /* Accelerate.framework */; };
+		C7EC8674158A7C1E008ED6E4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC8673158A7C1E008ED6E4 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7EC8649158A73B4008ED6E4 /* MiniNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EC864D158A73B4008ED6E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C7EC8650158A73B4008ED6E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C7EC8651158A73B4008ED6E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C7EC8652158A73B4008ED6E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7EC8655158A73B4008ED6E4 /* MiniNinja-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiniNinja-Info.plist"; sourceTree = "<group>"; };
+		C7EC8657158A73B4008ED6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7EC8659158A73B4008ED6E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7EC865B158A73B4008ED6E4 /* MiniNinja-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniNinja-Prefix.pch"; sourceTree = "<group>"; };
+		C7EC865D158A73B4008ED6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C7EC865F158A73B4008ED6E4 /* ISSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISSAppDelegate.h; sourceTree = "<group>"; };
+		C7EC8660158A73B4008ED6E4 /* ISSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSAppDelegate.m; sourceTree = "<group>"; };
+		C7EC8663158A73B4008ED6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C7EC866A158A73BF008ED6E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C7EC866C158A73C4008ED6E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C7EC866E158A73E8008ED6E4 /* NinjaAVFoundationExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinjaAVFoundationExporter.h; sourceTree = "<group>"; };
+		C7EC866F158A73E8008ED6E4 /* NinjaAVFoundationExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinjaAVFoundationExporter.m; sourceTree = "<group>"; };
+		C7EC8671158A73FC008ED6E4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C7EC8673158A7C1E008ED6E4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EC8646158A73B4008ED6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EC8674158A7C1E008ED6E4 /* CoreMedia.framework in Frameworks */,
+				C7EC8672158A73FC008ED6E4 /* Accelerate.framework in Frameworks */,
+				C7EC866D158A73C4008ED6E4 /* AVFoundation.framework in Frameworks */,
+				C7EC866B158A73BF008ED6E4 /* QuartzCore.framework in Frameworks */,
+				C7EC864E158A73B4008ED6E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7EC863E158A73B4008ED6E4 = {
+			isa = PBXGroup;
+			children = (
+				C7EC8653158A73B4008ED6E4 /* MiniNinja */,
+				C7EC864C158A73B4008ED6E4 /* Frameworks */,
+				C7EC864A158A73B4008ED6E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EC864A158A73B4008ED6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC8649158A73B4008ED6E4 /* MiniNinja.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EC864C158A73B4008ED6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC8673158A7C1E008ED6E4 /* CoreMedia.framework */,
+				C7EC8671158A73FC008ED6E4 /* Accelerate.framework */,
+				C7EC866C158A73C4008ED6E4 /* AVFoundation.framework */,
+				C7EC866A158A73BF008ED6E4 /* QuartzCore.framework */,
+				C7EC864D158A73B4008ED6E4 /* Cocoa.framework */,
+				C7EC864F158A73B4008ED6E4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EC864F158A73B4008ED6E4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC8650158A73B4008ED6E4 /* AppKit.framework */,
+				C7EC8651158A73B4008ED6E4 /* CoreData.framework */,
+				C7EC8652158A73B4008ED6E4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C7EC8653158A73B4008ED6E4 /* MiniNinja */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC866E158A73E8008ED6E4 /* NinjaAVFoundationExporter.h */,
+				C7EC866F158A73E8008ED6E4 /* NinjaAVFoundationExporter.m */,
+				C7EC865F158A73B4008ED6E4 /* ISSAppDelegate.h */,
+				C7EC8660158A73B4008ED6E4 /* ISSAppDelegate.m */,
+				C7EC8662158A73B4008ED6E4 /* MainMenu.xib */,
+				C7EC8654158A73B4008ED6E4 /* Supporting Files */,
+			);
+			path = MiniNinja;
+			sourceTree = "<group>";
+		};
+		C7EC8654158A73B4008ED6E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC8655158A73B4008ED6E4 /* MiniNinja-Info.plist */,
+				C7EC8656158A73B4008ED6E4 /* InfoPlist.strings */,
+				C7EC8659158A73B4008ED6E4 /* main.m */,
+				C7EC865B158A73B4008ED6E4 /* MiniNinja-Prefix.pch */,
+				C7EC865C158A73B4008ED6E4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EC8648158A73B4008ED6E4 /* MiniNinja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EC8667158A73B4008ED6E4 /* Build configuration list for PBXNativeTarget "MiniNinja" */;
+			buildPhases = (
+				C7EC8645158A73B4008ED6E4 /* Sources */,
+				C7EC8646158A73B4008ED6E4 /* Frameworks */,
+				C7EC8647158A73B4008ED6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniNinja;
+			productName = MiniNinja;
+			productReference = C7EC8649158A73B4008ED6E4 /* MiniNinja.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EC8640158A73B4008ED6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ISS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ImprobableSciences;
+			};
+			buildConfigurationList = C7EC8643158A73B4008ED6E4 /* Build configuration list for PBXProject "MiniNinja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7EC863E158A73B4008ED6E4;
+			productRefGroup = C7EC864A158A73B4008ED6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7EC8648158A73B4008ED6E4 /* MiniNinja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EC8647158A73B4008ED6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EC8658158A73B4008ED6E4 /* InfoPlist.strings in Resources */,
+				C7EC865E158A73B4008ED6E4 /* Credits.rtf in Resources */,
+				C7EC8664158A73B4008ED6E4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EC8645158A73B4008ED6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EC865A158A73B4008ED6E4 /* main.m in Sources */,
+				C7EC8661158A73B4008ED6E4 /* ISSAppDelegate.m in Sources */,
+				C7EC8670158A73E8008ED6E4 /* NinjaAVFoundationExporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7EC8656158A73B4008ED6E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EC8657158A73B4008ED6E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7EC865C158A73B4008ED6E4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EC865D158A73B4008ED6E4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C7EC8662158A73B4008ED6E4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EC8663158A73B4008ED6E4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7EC8665158A73B4008ED6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7EC8666158A73B4008ED6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7EC8668158A73B4008ED6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniNinja/MiniNinja-Prefix.pch";
+				INFOPLIST_FILE = "MiniNinja/MiniNinja-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7EC8669158A73B4008ED6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniNinja/MiniNinja-Prefix.pch";
+				INFOPLIST_FILE = "MiniNinja/MiniNinja-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EC8643158A73B4008ED6E4 /* Build configuration list for PBXProject "MiniNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EC8665158A73B4008ED6E4 /* Debug */,
+				C7EC8666158A73B4008ED6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EC8667158A73B4008ED6E4 /* Build configuration list for PBXNativeTarget "MiniNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EC8668158A73B4008ED6E4 /* Debug */,
+				C7EC8669158A73B4008ED6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EC8640158A73B4008ED6E4 /* Project object */;
+}

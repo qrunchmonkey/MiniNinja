@@ -1,0 +1,9 @@
+This is a vastly simplified version of [ScreenNinja](http://getscreenninja.com) created to demonstrate rdar://11706832 (also viewable on [Open Radar](http://openradar.appspot.com/radar?id=1805403))
+
+When Exporting an h264 video from 32 bit ARGB frames using AVAssetWriter and AVAssetWriterInputPixelBufferAdaptor, my application uses an alarming amount of memory (over 1GB), even though frames are being supplied at a low rate (1 frame per second or less)
+
+This only occurs when using AVVideoCodecH264. When another codec is used (such as AVVideoCodecJPEG or AVVideoCodecAppleProRes422) and less than 50 MB of ram is typically used, with no increase of allocations for each frame. This is the behavior I expected from the h264 exporter as well.
+
+Recording at one frame per second may seem odd, but the application I'm developing is a time lapse screen recorder - a typical recording session in the app will capture a full screen frame every 1 to 60 seconds (depending on configuration) and recording sessions can last for hours or even days.
+
+I showed this issue to several engineers in the AVFoundation labs during WWDC2012. All agreed that the memory usage I'm seeing seems rather high and that there's nothing obviously wrong with my code.
